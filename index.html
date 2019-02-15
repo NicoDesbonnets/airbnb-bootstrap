@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Airbnb home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/background.jpg);">
+      <div class="container text-center">
+        <h1>Welcome Home <strong></h1>
+        <p>Rent unique places to stay from local hosts in 190+ countries.</p>
+        <form action="check-in" class="form-inline">
+          <input type="checkin" placeholder="checkin" class="form-control">
+          <input type="checkout" placeholder="checkout" class="form-control">
+          <select class="form-control">
+            <option value="1">1 guest</option>
+            <option value="2">2 guests</option>
+            <option value="3">3 guests</option>
+          </select>
+          <input type="submit" value="Search" class="btn-flat">
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="features text-center padded">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="feature">
+              <img src="images/globe.png">
+              <h3>Discover the world</h3>
+              <p>The earth is your new home.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="feature">
+              <img src="images/dollar.png">
+              <h3>Pay online</h3>
+              <p>No cash issues anymore.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="feature">
+              <img src="images/beer.png">
+              <h3>Meet people</h3>
+              <p>Discover new cultures and lifestyle.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="feature">
+              <img src="images/heart.png">
+              <h3>Share and love</h3>
+              <p>Join a community you will love.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper-grey">
+      <div class="container padded text-center">
+        <h2>Your next trip</h2>
+        <div class="cards">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 50%), url('images/card-paris.jpg');">
+                  <img src="images/seb.jpg" class="img-avatar">
+                  <div class="card-desc">
+                    <h3>Seb's Home</h3>
+                    <p>Charming room with patio</p>
+                  </div>
+                  <p class="card-city">Paris</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 50%), url('images/card-brussels.jpeg');">
+                  <img src="images/anne.jpg" class="img-avatar">
+                  <div class="card-desc">
+                    <h3>Anne's Home</h3>
+                    <p>Lovely house</p>
+                  </div>
+                  <p class="card-city">Brussels</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 50%), url('images/card-london.jpeg');">
+                  <img src="images/romain.jpeg" class="img-avatar">
+                  <div class="card-desc">
+                    <h3>Romain's Home</h3>
+                    <p>Nice flat in Piccadilly</p>
+                  </div>
+                  <p class="card-city">Paris</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="newsletter text-center padded">
+      <h2>Get news from us</h2>
+      <p>Leave us your mail and get news from us</p>
+      <form action="newsletter" class="form-inline">
+        <input type="email" placeholder="bob@gmail.com" class="form-control">
+        <input type="submit" value="Suscribe" class="btn btn-primary">
+      </form>
+    </div>
+
+    <div id="map"></div>
+
+    <div class="wrapper-grey">
+      <div class="container">
+        <div class="footer text-center">
+          <div class="footer-content">
+            <div class="list-social">
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            </div>
+            <p>This is a Airbnb Home challenge @ LeWagon</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Your banner code -->
+
+    <!-- Your features code -->
+
+    <!-- Your cards code -->
+
+    <!-- Your newsletter code -->
+
+    <!-- Your map code -->
+
+    <!-- Your footer code -->
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+
+    <script>
+        function initMap() {
+          // Create a map object and specify the DOM element for display.
+          var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 52.5206, lng: 13.4098},
+            scrollwheel: false,
+            zoom: 8
+          });}
+
+    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Gmaps JavaScript -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzER7O10ZOUp7FloJzMe2r8X1GIQhgt7Q&callback=initMap">
+        </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.card {
+  height: 200px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px 0;
+  color: white;
+  padding: 10px;
+  opacity: 0.9;
+  /*padding: 30px;*/
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.card-desc {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-desc p{
+  font-weight: lighter;
+}
+
+.card-city {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

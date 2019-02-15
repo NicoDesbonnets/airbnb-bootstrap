@@ -1,0 +1,12 @@
+.footer {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer i {
+  font-size: 20px;
+  padding: 10px;
+}
+
